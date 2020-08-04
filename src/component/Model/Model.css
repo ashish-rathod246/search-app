@@ -1,0 +1,33 @@
+.model-container .model {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    width: 30%;
+    top: 20%;
+    left: 35%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.model-container .model-header {
+    text-align: center;
+    font-size: 1.5em;
+    color: #f0f0f0;
+    background-color: #00000052;
+    border-radius: 10px 10px 0 0;
+    padding: 10px 0;
+}
+
+.model-container .backCover {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+}

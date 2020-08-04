@@ -1,0 +1,13 @@
+.search-container label {
+    margin-left: 0px;
+    color: #f44336;
+    font-weight: bold;
+    font-size: inherit;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+.search-container input {
+    padding: 10px 20px;
+    margin: 5px 0;
+    font-size: inherit;
+}

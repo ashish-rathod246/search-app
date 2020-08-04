@@ -1,0 +1,30 @@
+.post-form {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    overflow: hidden;
+}
+
+.post-form .formField {
+    margin: 20px 0;
+}
+
+.post-form .formField label {
+    margin-left: 0px;
+    color: #f44336;
+    font-weight: bold;
+}
+
+.post-form .formField input, .post-form .formField textarea {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    font-size: inherit;
+}
+
+.post-form .formField textarea  {
+    height: 100px;
+    font-family: inherit;
+    font-size: inherit;    
+}
